@@ -1,0 +1,206 @@
+{
+  "Header": {
+    "brand": "Hebent Travel Tech",
+    "nav": {
+      "about": "Biziň hakda",
+      "solutions": "Çözgütler",
+      "benefits": "Peýdalar",
+      "why": "Näme üçin biz",
+      "contacts": "Kontaktlar"
+    },
+    "started": "Başla",
+    "language": "Dil",
+    "openMenu": "Menýuny aç",
+    "closeMenu": "Menýuny ýap",
+    "langNames": {
+      "en": "ENG",
+      "ru": "RUS",
+      "tk": "TKM"
+    }
+  },
+  "Main": {
+    "title": "Syýahat agentlikleri üçin <highlight>ähli zat bir CRM-de</highlight>",
+    "description": "Wizalary, bronlamalary, transferleri we müşderi hyzmatlaryny güýçli bir platformada dolandyryň. Hebent Travel Tech CRM agentlikleriň iş akymyny awtomatlaşdyrýar we ýokary hilli hyzmat berýär.",
+    "getDemo": "DEMO AL",
+    "servicesLabel": "Hyzmatlarymyz",
+    "servicesTitle": "Agentligiňize gerek zatlar",
+    "servicesDescription": "Syýahat işiňiziň ähli ugurlaryny öz içine alýan bäş esasy modul — müşderilerden bronlamalara we hasabatlara çenli."
+  },
+  "Services": {
+    "label": "Hyzmatlarymyz",
+    "title": "Agentligiňize gerek zatlar",
+    "description": "Syýahat işiňiziň ähli ugurlaryny öz içine alýan bäş esasy modul.",
+    "cards": {
+      "visa": {
+        "title": "Wiza kömegi",
+        "description": "Wiza işini ýönekeýleşdiriň: gurluşly iş akymy, resminamalary yzarlamak we haýyşlary dolandyrmak."
+      },
+      "translation": {
+        "title": "Terjime hyzmatlary",
+        "description": "Wiza we syýahat resminamalarynyň terjimelerini tertipli haýyşlar we aragatnaşyk bilen dolandyryň."
+      },
+      "hotel": {
+        "title": "Myhmanhana bronlamasy",
+        "description": "Myhmanhana bronlamalaryny netijeli ýerine ýetiriň we müşderi bronlamalaryny bir platformada saklaň."
+      },
+      "ticket": {
+        "title": "Bilet dolandyryşy",
+        "description": "Uçuş biletlerini we syýahat ugurlaryny tertipleşdiriň, her müşderi üçin doly ýazgylary saklaň."
+      },
+      "transfer": {
+        "title": "Transfer hyzmatlary",
+        "description": "Howa menzilinden garşy almak, ýerli transferler we ulag hyzmatlaryny utgaşdyryň."
+      }
+    }
+  },
+  "Benefits": {
+    "label": "Peýdalar",
+    "title": "Tablisalary kovalamagy bes ediň.<br></br>Ugurlary çalt ýapyň.",
+    "items": {
+      "automation": {
+        "title": "Syýahat amallaryny awtomatlaşdyrmak",
+        "description": "El bilen maglumat girizmegi ýok ediň — wiza iş akymy, bron tassyklamalary we müşderi habarnamalary."
+      },
+      "clients": {
+        "title": "Merkezleşdirilen müşderi dolandyryşy",
+        "description": "Her müşderi üçin bir profil: syýahat taryhy, resminama arhiwi we aragatnaşyk ýazgylary."
+      },
+      "booking": {
+        "title": "Çalt bronlama iş akymy",
+        "description": "Soragdan tassyklamaga çenli ýönekeýleşdirilen proses. Birnäçe üpjünçiden bronlama."
+      },
+      "tracking": {
+        "title": "Hakyky wagtda işewürlik analitikasy",
+        "description": "Wiza iş akymy, bronlamalar we toparyň netijeliligi barada panel we hasabatlar."
+      },
+      "secure": {
+        "title": "Görkezilen CRM",
+        "description": "Gündelik çykdajylar, rola modeli we döretmeler hakyky wagtda işewürlik analitikasy."
+      }
+    }
+  },
+  "Why": {
+    "label": "Näme üçin Hebent Travel Technology",
+    "title": "Syýahaty düşünýän platforma",
+    "cards": {
+      "builtForTravel": {
+        "title": "Syýahat biznesi üçin döredilen",
+        "description": "Umumy CRM däl — agentlikler üçin niýetlenen çözgüt. Her aýratynlyk siziň dilde."
+      },
+      "integrations": {
+        "title": "Aňsat integrasiýalar",
+        "description": "GDS, töleg şlýuzlary, ilçihanalyk API we aragatnaşyk guralaryny çalt birikdiriň."
+      },
+      "scalable": {
+        "title": "Giňeldilip bilinýän SaaS",
+        "description": "Ýeke konsultantdan 500 agentlik çenli — platforma siziň bilen ösýär."
+      },
+      "support": {
+        "title": "Çalt müşderi goldawy",
+        "description": "Syýahat pudagynda tejribeli topar. Orta jogap wagty 4 sagatdan az."
+      }
+    }
+  },
+  "Cta": {
+    "title": "Syýahat operasiýalaryňyzy täzelemeäge taýynmy?",
+    "description": "Iş proseslerini ýeňilleşdirmek üçin Hebent Travel Tech ulanýan müňlerçe agentliklere goşulyň. Mugt synagdan başlaň — kredit kartoçkasy gerek däl.",
+    "button": "Mugt synag başlat"
+  },
+
+  "Solution": {
+    "title": "Ähli çözgütler bir platformada",
+    "subtitle": "Platformamyzň ulanylyşy ýeňiş we işleri çalt çözmäge kömek edýändigine buýsanýarys. Üç ýönekeý ädimde düzüş we işe giriziş.",
+    "steps": {
+      "install": {
+        "title": "GPS trekerleri gurnaň",
+        "description": "Awtoulagyňyzdaky islendik ulag serişdesine aňsat gurnalýan kompakt GPS enjamlary hödürleýäris."
+      },
+      "connect": {
+        "title": "Platforma bilen baglanyşyk",
+        "description": "Ulag serişdeleri platforma awtomatik baglanýar. Dolandyryş paneliňizde derrew görünýär."
+      },
+      "monitor": {
+        "title": "Gözegçilik we mobil",
+        "description": "Möhüm onlaýn platformadan ähli awtoulagy gözegçilik ediň, seljeriş ediň we optimizasiýa ediň."
+      }
+    }
+  },
+
+  "Footer": {
+    "tagline": "Syýahat agentlikleri üçin müşderileri, bronlamalary we işleri dolandyrmak üçin CRM platformasy.",
+    "contactsTitle": "Kontaktlar",
+    "address": "Türkmenistan,ş. Aşgabat,k. Bitarap Türkmenistan 3/1, 'Altyn Ýüplük' bina",
+    "socialLabel": "Sosial ulgamlar",
+    "rights": "Ähli hukuklar goragly",
+    "privacy": "Gizlinlik siýasasy",
+    "cookies": "Cookies"
+  },
+  "CookiesPolicy": {
+    "title1": "Cookie syýasaty",
+    "description": "Hebent Tech kompaniýasynda biz siziň web sahypamyzy ulanmak tejribäňizi gowulandyrmak, sahypa traffigini seljermek we mazmuny şahsylaşdyrmak üçin cookie faýllaryny ulanýarys. Cookie faýllary — bu siziň enjamyňyzda saklanýan kiçi tekst faýllary bolup, olar siziň sazlamalaryňyzy ýatda saklamaga we web sahypamyz bilen nähili aragatnaşyk edýändigiňize düşünmäge kömek edýär.",
+    "what": "Biz haýsy görnüşli cookie faýllaryny ulanýarys?",
+    "categories": [
+      {
+        "title": "Esasy cookie faýllary:",
+        "description": "web sahypanyň dogry işlemegi üçin zerurdyr, sahypalar boýunça nawigasiýa we goragly bölümlere giriş ýaly esasy funksiýalary üpjün edýär."
+      },
+      {
+        "title": "Öndürijilik cookie faýllary:",
+        "description": "ulanyjylaryň sahypamyzy nähili ulanýandygyny ýygnap, tizligi we amatlylygy gowulandyrmaga kömek edýär."
+      },
+      {
+        "title": "Funksional cookie faýllary:",
+        "description": "siziň sazlamalaryňyzy we islegleriňizi ýatda saklap, has şahsylaşdyrylan tejribe berýär."
+      },
+      {
+        "title": "Mahabat cookie faýllary:",
+        "description": "siziň gyzyklanmalaryňyza laýyk mahabatlary görkezmek we marketing kampaniýalarynyň netijeliligini ölçemek üçin ulanylýar."
+      }
+    ],
+    "title2": "Cookie dolandyryşy",
+    "p1": "Siz cookie faýllaryny brauzeriňiziň sazlamalary arkaly dolandyryp ýa-da öçürip bilersiňiz. Käbir cookie faýllaryny bloklamak web sahypanyň işleýşine we ulanyş tejribesine täsir edip biler.",
+    "p2": "Cookie barada has giňişleýin maglumat almak we olary dolandyrmak üçin şu sahypa ýüz tutuň:",
+    "p3": "Web sahypamyzy ulanmagy dowam etdirmegiňiz bilen, siz şu syýasata laýyklykda cookie faýllarynyň ulanylmagyna razylyk berýärsiňiz."
+  },
+  "PrivacyPolicy": {
+    "title1": "Gizlinlik syýasaty",
+    "description1": "Hebent Tech kompaniýasynda biz siziň şahsy maglumatlaryňyzyň goralmagyna uly ähmiýet berýäris. Bu Gizlinlik syýasaty, siz biziň",
+    "description1_2": "web sahypamyzy ýa-da hyzmatlarymyzy ulananyňyzda, biz tarapyndan ýygnalýan, ulanylýan we goralýan şahsy maglumatlar barada düşündirýär.",
+    "title2": "Yygnalýan maglumatlar",
+    "description2": "Biz aşakdaky görnüşdäki maglumatlary ýygnap bileris:",
+    "items1": [
+      {
+        "title": "Şahsy maglumatlar:",
+        "description": "Siz biziň bilen habarlaşanyňyzda, işe ýüz tutanyňyzda ýa-da hyzmatlarymyzy ulananyňyzda, adyňyz, e-poçta salgysy, telefon belgiňiz ýa-da rezýumeňiz ýaly şahsy maglumatlary berip bilersiňiz."
+      },
+      {
+        "title": "Ulanyş maglumatlary:",
+        "description": "Biz siziň web sahypamyz bilen nähili özara gatnaşygyňyz bardygy barada maglumatlary ýygnap bileris, şol sanda IP salgysy, brauzer görnüşi, girilen sahypalar, sahypalarda geçirilen wagt we geçiş edilen çeşme sahypalary."
+      },
+      {
+        "title": "Cookie faýllary we yzarlama tehnologiýalary:",
+        "description": "Biz siziň tejribäňizi gowulandyrmak, ulanyş maglumatlaryny seljermek we mazmuny şahsylaşdyrmak üçin cookie faýllaryny we şuňa meňzeş tehnologiýalary ulanýarys. Siz cookie sazlamalaryny öz brauzeriňizde dolandyryp bilersiňiz."
+      }
+    ],
+    "title3": "Biz siziň maglumatlaryny nähili ulanýarys?",
+    "description3": "Biz siziň maglumatlaryňyzy şu maksatlar üçin ulanýarys:",
+    "items2": [
+      {
+        "description": "Hyzmatlarymyzy hödürlemek we gowulandyrmak"
+      },
+      {
+        "description": "Siziň bilen aragatnaşyk saklamak (mysal üçin, jogaplar, täzelikler, habar býulletenleri)"
+      },
+      {
+        "description": "Işe ýüz tutmalary işläp taýýarlamak"
+      },
+      {
+        "description": "Web sahypanyň işleýşini we ulanyjylaryň hereketini seljermek"
+      },
+      {
+        "description": "Kanuny borçnamalary ýerine ýetirmek"
+      }
+    ],
+    "span": "Biz hiç haçan siziň şahsy maglumatlaryňyzy üçünji taraplara satmaýarys ýa-da kärendesine bermeýäris."
+  }
+}

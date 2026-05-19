@@ -1,0 +1,205 @@
+{
+  "Header": {
+    "brand": "Hebent Travel Tech",
+    "nav": {
+      "about": "About",
+      "solutions": "Solutions",
+      "benefits": "Benefits",
+      "why": "Why Us",
+      "contacts": "Contacts"
+    },
+    "started": "Get Started",
+    "language": "Language",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "langNames": {
+      "en": "ENG",
+      "ru": "RUS",
+      "tk": "TKM"
+    }
+  },
+  "Main": {
+    "title": "All-in-One CRM for <highlight>Travel Agencies</highlight>",
+    "description": "Manage visas, bookings, transfers, and client services in one powerful travel management platform. Hebent Travel Tech CRM helps travel agencies automate workflows and deliver seamless travel experiences.",
+    "getDemo": "GET A DEMO",
+    "servicesLabel": "Our Services",
+    "servicesTitle": "Everything Your Agency Needs",
+    "servicesDescription": "Five core modules designed to cover every aspect of your travel business — from client management to bookings and reporting."
+  },
+  "Services": {
+    "label": "Our Services",
+    "title": "Everything Your Agency Needs",
+    "description": "Five core modules designed to cover every aspect of travel operations.",
+    "cards": {
+      "visa": {
+        "title": "Visa Assistance",
+        "description": "Simplify visa processing with structured workflows, document tracking, and request management for faster application handling."
+      },
+      "translation": {
+        "title": "Translation Services",
+        "description": "Manage document translations for visas and travel documents with organized requests and easy communication."
+      },
+      "hotel": {
+        "title": "Hotel Booking",
+        "description": "Handle hotel reservations efficiently and keep track of client bookings in one centralized platform."
+      },
+      "ticket": {
+        "title": "Ticket Management",
+        "description": "Organize flight tickets and travel itineraries while maintaining clear records for every client."
+      },
+      "transfer": {
+        "title": "Transfer Services",
+        "description": "Coordinate airport pickups, local transfers, and transportation services for your travelers."
+      }
+    }
+  },
+  "Benefits": {
+    "label": "Benefits",
+    "title": "Stop chasing spreadsheets.<br></br>Start closing itineraries.",
+    "items": {
+      "automation": {
+        "title": "Automation of Travel Operations",
+        "description": "Eliminate manual data entry with smart automation that handles visa workflows, booking confirmations, and client notifications."
+      },
+      "clients": {
+        "title": "Centralized Client Management",
+        "description": "One unified profile per client with complete travel history, document archives, and communication logs."
+      },
+      "booking": {
+        "title": "Faster Booking Workflows",
+        "description": "Streamlined processes from inquiry to confirmation. Multi-supplier bookings in a single workflow."
+      },
+      "tracking": {
+        "title": "Real-Time Tracking",
+        "description": "Live status updates for visa applications, flight schedules, hotel confirmations, and transfer dispatches."
+      },
+      "secure": {
+        "title": "Secure Cloud-based CRM",
+        "description": "Enterprise-grade security with daily backups, role-based access, and compliance with international data protection standards."
+      }
+    }
+  },
+  "Why": {
+    "label": "Why Hebent Travel Technology",
+    "title": "The platform that understands travel",
+    "cards": {
+      "builtForTravel": {
+        "title": "Built for Travel Businesses",
+        "description": "Purpose-built for agencies, not a generic CRM retrofitted for travel. Every feature speaks your language."
+      },
+      "integrations": {
+        "title": "Easy Integrations",
+        "description": "Connect with GDS systems, payment gateways, embassy APIs, and communication tools out of the box."
+      },
+      "scalable": {
+        "title": "Scalable SaaS Solution",
+        "description": "From solo travel consultants to 500-agent enterprises. The platform scales with your growth."
+      },
+      "support": {
+        "title": "Fast Customer Support",
+        "description": "Dedicated support team with travel industry expertise. Average response time under 4 hours."
+      }
+    }
+  },
+  "Cta": {
+    "title": "Ready to modernize your travel operations?",
+    "description": "Join thousands of agencies already using Hebent Travel Tech to streamline their workflows. Start with a free trial — no credit card required.",
+    "button": "Start Free Trial"
+  },
+  "Solution": {
+    "title": "All solutions on one platform",
+    "subtitle": "We are proud that our platform is easy to use and helps you solve tasks faster. Setup and launch in 3 simple steps.",
+    "steps": {
+      "install": {
+        "title": "Install GPS trackers",
+        "description": "We provide compact GPS devices that are easily installed in any vehicle in your fleet."
+      },
+      "connect": {
+        "title": "Connect to the platform",
+        "description": "Vehicles connect to the platform automatically. See them appear on your dashboard instantly."
+      },
+      "monitor": {
+        "title": "Monitor and mobile",
+        "description": "Track, analyze, and optimize your entire fleet from one powerful online platform."
+      }
+    }
+  },
+
+  "Footer": {
+    "tagline": "The all-in-one CRM platform built for modern travel agencies and tour operators.",
+    "contactsTitle": "Contacts",
+    "address": "Turkmenistan,c. Ashgabat,str. Bitarap Turkmenistan 3/1, 'Altyn Ýüplük' bld.",
+    "socialLabel": "Social networks",
+    "rights": "All rights reserved",
+    "privacy": "Privacy Policy",
+    "cookies": "Cookies"
+  },
+  "CookiesPolicy": {
+    "title1": "Cookies Policy",
+    "description": "At Hebent  Tech, we use cookies to enhance your browsing experience, analyze site traffic, and personalize content. Cookies are small text files stored on your device that help us remember your preferences and understand how you interact with our website.",
+    "what": "What types of cookies do we use?",
+    "categories": [
+      {
+        "title": "Essential Cookies:",
+        "description": "Necessary for the website to function properly, enabling basic features like page navigation and access to secure areas. Performance Cookies: Collect information about how visitors use our site, helping us improve speed and usability."
+      },
+      {
+        "title": "Functional Cookies:",
+        "description": "Remember your preferences and settings to provide a more personalized experience."
+      },
+      {
+        "title": "Advertising Cookies:",
+        "description": "Used to deliver relevant ads based on your interests and to measure the effectiveness of marketing campaigns."
+      },
+      {
+        "title": "Advertising Cookies:",
+        "description": "Used to deliver relevant ads based on your interests and to measure the effectiveness of marketing campaigns."
+      }
+    ],
+    "title2": "Managing Cookies",
+    "p1": "You can control or disable cookies through your browser settings. Please note that blocking certain cookies may affect the functionality and user experience of our website. For more information about cookies and how to manage them, visit www.aboutcookies.org.",
+    "p2": "For more information about cookies and how to manage them, visit:",
+    "p3": "By continuing to use our website, you consent to our use of cookies in accordance with this policy."
+  },
+  "PrivacyPolicy": {
+    "title1": "Privacy Policy",
+    "description1": "At Hebent Tech, we are committed to protecting your privacy. This Privacy Policy explains how we collect, use, and protect the personal information you provide to us when you use our website ",
+    "description1_2": " and any of our services.",
+    "title2": "Information We Collect",
+    "description2": "We may collect the following types of information:",
+    "items1": [
+      {
+        "title": "Personal Information:",
+        "description": "When you contact us, apply for a job, or use our services, you may provide personal details such as your name, email address, phone number, or resume."
+      },
+      {
+        "title": "Usage Data:",
+        "description": "We may collect data about how you interact with our website, including IP address, browser type, pages visited, time spent on pages, and referring websites."
+      },
+      {
+        "title": "Cookies and Tracking Technologies:",
+        "description": "We use cookies and similar technologies to improve your experience, analyze usage patterns, and personalize content. You can control cookie preferences in your browser settings."
+      }
+    ],
+    "title3": "How We Use Your Information",
+    "description3": "We use your data to:",
+    "items2": [
+      {
+        "description": "Provide and improve our services"
+      },
+      {
+        "description": "Communicate with you (e.g., responses, updates, newsletters)"
+      },
+      {
+        "description": "Process job applications"
+      },
+      {
+        "description": "Analyze website performance and user behavior"
+      },
+      {
+        "description": "Comply with legal obligations"
+      }
+    ],
+    "span": "We will never sell or rent your personal information to third parties."
+  }
+}
