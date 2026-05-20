@@ -160,3 +160,27 @@ a {
 .logo-spin {
   animation: spin 15s linear infinite;
 }
+
+.footer-bg-pattern {
+  pointer-events: none;
+  /* margin-bottom: 20px; */
+  position: absolute;
+  inset: 0;
+  background-repeat: repeat;
+  opacity: 0.03;
+  background-image: var(--footer-bg-url);
+  background-size: var(--footer-bg-cell) var(--footer-bg-cell);
+  --footer-bg-cell: 30px;
+}
+
+@media (min-width: 640px) {
+  .footer-bg-pattern {
+    --footer-bg-cell: 32px;
+  }
+}
+
+@media (min-width: 768px) {
+  .footer-bg-pattern {
+    --footer-bg-cell: 48px;
+  }
+}

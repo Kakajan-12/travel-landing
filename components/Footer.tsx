@@ -3,10 +3,12 @@ import Image from "next/image";
 import logo from "@/public/logo.svg";
 import logoBg from "@/public/logo-bg.svg";
 import Link from "next/link";
-import logoFoot from "@/public/logo-foot.svg";
+import logoFoot from "@/public/logoIcon.svg";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { HiLocationMarker } from "react-icons/hi";
 import { IoMail } from "react-icons/io5";
+import footerBg from "@/public/mainBg.svg";
+import { CSSProperties } from "react";
 
 export default function Footer() {
   const t = useTranslations("Footer");
@@ -16,7 +18,20 @@ export default function Footer() {
       id="contacts"
       className="relative isolate mt-20 md:mt-40 overflow-hidden scroll-mt-32 md:scroll-mt-36 bg-white border-t border-[#C4C4C4]"
     >
-      <div className="absolute -bottom-25 md:-bottom-20 right-[-100px] md:right-0">
+      <div
+        className="absolute inset-0 bg-linear-to-r from-[#5FCBB9] to-[#2E6BFF]"
+        aria-hidden
+      />
+      <div
+        className="footer-bg-pattern"
+        style={
+          {
+            "--footer-bg-url": `url(${footerBg.src})`,
+          } as CSSProperties
+        }
+        aria-hidden
+      />
+      {/* <div className="absolute -bottom-25 md:-bottom-20 right-[-100px] md:right-0">
         <Image
           src={logoBg}
           alt="logoBg"
@@ -24,7 +39,7 @@ export default function Footer() {
           height={100}
           className="w-full h-full scale-50 md:scale-150 lg:scale-100"
         />
-      </div>
+      </div> */}
       <div className="relative z-10 container mx-auto px-5 lg:px-10 py-6 lg:py-10 mb-15 md:mb-30">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 lg:gap-16 items-start">
           <div className="logo flex flex-col gap-3">
@@ -107,7 +122,7 @@ export default function Footer() {
             Cookies |
           </Link>
           <span className="whitespace-nowrap"> Powered by </span>
-          <div className="flex items-center">
+          <div className="flex items-center gap-1">
             <Image
               src={logoFoot}
               alt="HEBENT TECHNOLOGY"
