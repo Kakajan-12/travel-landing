@@ -57,7 +57,7 @@ export default function Benefits() {
   return (
     <section
       id="benefits"
-      className="scroll-mt-28 py-12 sm:py-16 lg:scroll-mt-32 lg:py-24"
+      className="scroll-mt-28 py-12 lg:scroll-mt-32 lg:py-16"
     >
       <motion.div {...fadeUp} className="container mx-auto px-5 lg:px-10">
         <SectionHeading

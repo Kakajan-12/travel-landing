@@ -32,7 +32,9 @@ export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [langOpen, setLangOpen] = useState(false);
   const [mobileLangOpen, setMobileLangOpen] = useState(false);
+  const [theme, setTheme] = useState<"light" | "dark">("light");
   const langRef = useRef<HTMLDivElement>(null);
+  const headerRef = useRef<HTMLElement>(null);
 
   const scrollToId = (id: string, behavior: ScrollBehavior = "smooth") => {
     document.getElementById(id)?.scrollIntoView({ behavior, block: "start" });
@@ -56,6 +58,33 @@ export default function Header() {
     });
     return () => cancelAnimationFrame(id);
   }, [locale]);
+
+  // Header theme
+  useEffect(() => {
+    const update = () => {
+      const sections = document.querySelectorAll<HTMLElement>(
+        "[data-header-theme]",
+      );
+      const headerBottom =
+        headerRef.current?.getBoundingClientRect().bottom ?? 0;
+      let next: "light" | "dark" = "light";
+      sections.forEach((sec) => {
+        const r = sec.getBoundingClientRect();
+        if (r.top <= headerBottom + 1 && r.bottom > headerBottom) {
+          next = (sec.dataset.headerTheme as "light" | "dark") ?? "light";
+        }
+      });
+      setTheme(next);
+    };
+
+    update();
+    window.addEventListener("scroll", update, { passive: true });
+    window.addEventListener("resize", update);
+    return () => {
+      window.removeEventListener("scroll", update);
+      window.removeEventListener("resize", update);
+    };
+  }, []);
 
   useEffect(() => {
     document.body.style.overflow = menuOpen ? "hidden" : "";
@@ -131,7 +160,14 @@ export default function Header() {
 
   return (
     <>
-      <header className="sticky top-0 z-50 border-b border-[#C4C4C4] bg-[#D9D9D933] backdrop-blur-md">
+      <header
+        ref={headerRef}
+        className={`sticky top-0 z-50 border-b backdrop-blur-md transition-colors duration-300 ${
+          theme === "dark"
+            ? "border-white/20 bg-black/10"
+            : "border-[#C4C4C4] bg-[#D9D9D933]"
+        }`}
+      >
         <div className="container relative mx-auto flex items-center justify-between gap-4 px-5 py-2 lg:px-10">
           <Link
             href="/"
@@ -144,7 +180,9 @@ export default function Header() {
               alt={t("brand")}
               width={155}
               height={50}
-              className="h-9 w-auto sm:h-16"
+              className={`h-9 w-auto sm:h-16 transition-[filter] duration-300 ${
+                theme === "dark" ? "brightness-0 invert" : ""
+              }`}
               priority
             />
           </Link>
@@ -153,31 +191,40 @@ export default function Header() {
             className="hidden items-center gap-10 lg:absolute lg:left-1/2 lg:flex lg:-translate-x-1/2"
             aria-label="Main"
           >
-            {navKeys.map((key) => (
-              <Link
-                key={key}
-                href={`#${getSectionId(key)}`}
-                scroll={false}
-                className={`text-[15px] font-bold transition-colors ${
-                  isActive(key)
+            {navKeys.map((key) => {
+              const active = isActive(key);
+              const linkClass =
+                theme === "dark"
+                  ? active
                     ? "text-[#2E6BFF]"
-                    : "text-[#1a1a1a] hover:text-[#2E6BFF]"
-                }`}
-                onClick={(e) => {
-                  e.preventDefault();
-                  scrollToSection(key);
-                }}
-              >
-                {t(`nav.${key}`)}
-              </Link>
-            ))}
+                    : "text-white/80 hover:text-white"
+                  : active
+                    ? "text-[#2E6BFF]"
+                    : "text-[#1a1a1a] hover:text-[#2E6BFF]";
+              return (
+                <Link
+                  key={key}
+                  href={`#${getSectionId(key)}`}
+                  scroll={false}
+                  className={`text-[15px] font-bold transition-colors ${linkClass}`}
+                  onClick={(e) => {
+                    e.preventDefault();
+                    scrollToSection(key);
+                  }}
+                >
+                  {t(`nav.${key}`)}
+                </Link>
+              );
+            })}
           </nav>
 
           <div className="flex items-center gap-3 sm:gap-4">
             <div ref={langRef} className="relative hidden lg:block">
               <button
                 type="button"
-                className="inline-flex items-center justify-between gap-1 px-3 py-2 text-md font-medium underline transition-colors"
+                className={`inline-flex items-center justify-between gap-1 px-3 py-2 text-md font-medium underline transition-colors ${
+                  theme === "dark" ? "text-white" : "text-[#1a1a1a]"
+                }`}
                 aria-expanded={langOpen}
                 aria-haspopup="listbox"
                 aria-label={t("language")}
@@ -228,7 +275,9 @@ export default function Header() {
 
             <button
               type="button"
-              className="inline-flex size-10 items-center justify-center rounded-md text-[#1a1a1a] lg:hidden"
+              className={`inline-flex size-10 items-center justify-center rounded-md transition-colors lg:hidden ${
+                theme === "dark" ? "text-white" : "text-[#1a1a1a]"
+              }`}
               aria-expanded={menuOpen}
               aria-label={t("openMenu")}
               onClick={() => {

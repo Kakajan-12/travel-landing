@@ -21,10 +21,7 @@ export default function Why() {
   const t = useTranslations("Why");
 
   return (
-    <section
-      id="why"
-      className="scroll-mt-28 py-12 sm:py-16 lg:scroll-mt-32 lg:py-24"
-    >
+    <section id="why" className="scroll-mt-28 py-12 lg:scroll-mt-32 lg:py-24">
       <motion.div
         {...fadeUp}
         transition={{ ...fadeUp.transition, delay: 0.2 }}

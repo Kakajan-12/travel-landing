@@ -15,11 +15,12 @@ export default function CtaBanner() {
   const t = useTranslations("Cta");
 
   return (
-    <section className="py-16">
+    <section className="py-8">
       <div className="container mx-auto px-5 lg:px-10">
         <motion.div
           {...fadeUp}
           className="cta-banner flex flex-col items-start"
+          data-header-theme="dark"
         >
           <h2 className="max-w-2xl font-nexa text-2xl font-bold leading-tight text-white md:text-4xl lg:text-5xl">
             {t("title")}
