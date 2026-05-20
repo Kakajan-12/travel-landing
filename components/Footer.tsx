@@ -16,7 +16,7 @@ export default function Footer() {
   return (
     <footer
       id="contacts"
-      className="relative isolate mt-20 md:mt-40 overflow-hidden scroll-mt-32 md:scroll-mt-36 bg-white border-t border-[#C4C4C4]"
+      className="relative isolate mt-20 md:mt-40 overflow-hidden scroll-mt-32 md:scroll-mt-36 text-white bg-white border-t border-[#C4C4C4]"
     >
       <div
         className="absolute inset-0 bg-linear-to-r from-[#5FCBB9] to-[#2E6BFF]"
@@ -49,7 +49,7 @@ export default function Footer() {
                 alt={"logo"}
                 width={155}
                 height={50}
-                className="h-18 w-auto mx-auto md:mx-0"
+                className="h-18 w-auto brightness-0 invert"
               />
             </div>
             <p className="max-w-2xs text-xs leading-relaxed  sm:text-sm">
@@ -62,8 +62,13 @@ export default function Footer() {
             </h3>
             <ul className="flex flex-col gap-2 md:gap-3 text-sm md:text-base font-medium">
               <li className="inline-flex items-start gap-3">
-                <HiLocationMarker className="size-4 shrink-0" aria-hidden />
-                <span className="leading-none">{t("address")}</span>
+                <HiLocationMarker
+                  className="size-4 shrink-0 mt-1"
+                  aria-hidden
+                />
+                <span className="">
+                  {t.rich("address", { br: () => <br /> })}
+                </span>
               </li>
               <li>
                 <a
@@ -71,7 +76,7 @@ export default function Footer() {
                   className="inline-flex items-start gap-3 transition-opacity hover:opacity-90"
                 >
                   <BsFillTelephoneFill
-                    className="size-4 shrink-0"
+                    className="size-4 shrink-0 mt-1"
                     aria-hidden
                   />
                   <span className="tabular-nums leading-none mt-1">
@@ -84,7 +89,7 @@ export default function Footer() {
                   href={`mailto:info@hebent.tech`}
                   className="inline-flex items-start gap-3 leading-nonetransition-opacity hover:opacity-90"
                 >
-                  <IoMail className="size-4 shrink-0" aria-hidden />
+                  <IoMail className="size-4 shrink-0 mt-1" aria-hidden />
                   <span className="leading-none mt-1">info@hebent.tech</span>
                 </a>
               </li>
@@ -128,7 +133,7 @@ export default function Footer() {
               alt="HEBENT TECHNOLOGY"
               width={29}
               height={31}
-              className="inline-block w-6 h-auto logo-spin motion-reduce:animate-none mb-1"
+              className="inline-block w-6 h-auto logo-spin motion-reduce:animate-none mb-1 brightness-0 invert"
             />
             <span className="uppercase text-xs leading-none">
               Hebent Technology
