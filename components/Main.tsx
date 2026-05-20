@@ -18,8 +18,8 @@ export default function Main() {
         }
         aria-hidden
       />
-      <div className="container relative mx-auto px-5 lg:px-10 py-8 min-h-[85vh] md:min-h-[70vh] lg:min-h-[85vh] flex flex-col md:flex-row items-start sm:items-center justify-center gap-4 lg:gap-8">
-        <div className="description-container w-full md:w-2/3 space-y-5">
+      <div className="container relative mx-auto px-5 lg:px-10 min-h-[85vh] md:min-h-[70vh] lg:min-h-[85vh] grid grid-cols-1 md:grid-cols-2 items-start sm:items-center gap-4">
+        <div className="description-container space-y-5 items-center place-self-center">
           <h1 className="font-nexa text-2xl lg:text-5xl font-bold">
             {t.rich("title", {
               highlight: (chunks) => (
@@ -41,7 +41,7 @@ export default function Main() {
           </a>
         </div>
         <div
-          className="w-full md:w-1/3 md:mx-10 aspect-video scale-90 sm:scale-80 md:scale-150 2xl:scale-170"
+          className="aspect-video"
           role="img"
           aria-label="CRM dashboard preview"
         >
