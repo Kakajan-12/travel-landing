@@ -72,7 +72,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href={`tel:+993 71 397778`}
+                  href={`tel:+993 71 397739`}
                   className="inline-flex items-start gap-3 transition-opacity hover:opacity-90"
                 >
                   <BsFillTelephoneFill
@@ -80,7 +80,7 @@ export default function Footer() {
                     aria-hidden
                   />
                   <span className="tabular-nums leading-none mt-1">
-                    +993 71 397778
+                    +993 71 397739
                   </span>
                 </a>
               </li>
